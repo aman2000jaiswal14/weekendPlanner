@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 5000;
 const http = require("http");
 const fs = require("fs");
 const requests = require("requests");
