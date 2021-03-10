@@ -51,4 +51,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(5000, "127.0.0.1");
+server.listen(PORT, function() {
+  console.log('Chat server running');
+});
